@@ -19,4 +19,3 @@ buttonElement.addEventListener("click", () => {
    validationError()
 })
 
-const emailInput = document.querySelector("input[type=email")
