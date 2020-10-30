@@ -82,14 +82,14 @@ form button {
     width: 100%;
     margin-top: 1rem;
     padding: 20px;
-
+    
     font-weight: 500;
     background-color: var(--color-green);
     color: #fff;
-
+    
     border-radius: 7px;
     box-shadow: 0 4px #269464;
-
+    
     cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ form p {
     
     font-size: 12px;
     font-weight: 600;
-
+    
     color: #bbb5b5;
 }
 
@@ -114,4 +114,11 @@ form p a {
     color: var(--bg-body);
     text-decoration: none;
     font-weight: 700;
+    
+}
+
+.error {
+    background-image: url("../images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 98% center;
 }
