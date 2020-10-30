@@ -1,3 +1,22 @@
+@media(min-width:500px) {
+.info {
+    max-width: 500px;
+}
+
+    .info h2 {
+        font-size: 2rem;
+    }
+
+    .info p {
+        font-size: 1.1rem;
+    }
+
+    .form-info {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+}
+
 @media(min-width: 700px) {
     body {
         height: 100%;
@@ -11,12 +30,11 @@
         height: 100vh;
         max-width: 1200px;
         max-height: 80%;
-
-        /* padding: 32px; */
     }
 
     .info {
         text-align: start;
+        margin-left: 120px;
     }
 
     .info h2 {
@@ -36,6 +54,6 @@
 
     .form-info{
         margin: 1vh 0;
-        max-width: 450px;
+        max-width: 500px;
     }
 }

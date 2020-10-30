@@ -7,11 +7,13 @@
     box-sizing: border-box;
 }
 
-:root {
+html {
     --bg-body: #ff7a7a;
     --color-green: #38cc8c;
     --color-blue: #6055a5;
     --color-dark-blue: #3e3c49;
+    --color-white: #fff;
+    --color-yellow: #f1dc1c;
 }
 
 body {
@@ -33,12 +35,12 @@ body {
     margin: 0 auto;
     width: 300px;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 .info p {
     padding: 1.2rem;
-    color: #fff;
+    color: var(--color-white);
 }
 
 .form-info {
@@ -52,14 +54,14 @@ body {
     margin-bottom: 1.6rem;
     padding: 24px;
     background-color: var(--color-blue);
-    color: #fff;
+    color: var(--color-white);
 
     border-radius: 12px;
     box-shadow: 0 8px #00000033;
 }
 
 form {
-    background-color: #fff;
+    background-color: var(--color-white);
     border-radius: 12px;
     box-shadow: 0 8px #00000033;
     padding: 24px;
@@ -85,7 +87,7 @@ form button {
     
     font-weight: 500;
     background-color: var(--color-green);
-    color: #fff;
+    color: var(--color-white);
     
     border-radius: 7px;
     box-shadow: 0 4px #269464;
