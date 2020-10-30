@@ -11,7 +11,7 @@ buttonElement.addEventListener("click", () => {
         if(input.value === '') {
             input.classList.add("error")
         } else {
-            // Retirar .error do elemento
+            input.classList.remove("error")// Retirar .error do elemento
         }
     }
 })
