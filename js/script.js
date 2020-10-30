@@ -3,15 +3,20 @@ const formInput = document.querySelectorAll("input")
 
 const buttonElement = document.querySelector("form button")
 
-document.querySelector("input")
-    .classList.remove("error")
-
-buttonElement.addEventListener("click", () => {
+function validationError() {
     for (input of formInput) {
         if(input.value === '') {
             input.classList.add("error")
         } else {
-            input.classList.remove("error")// Retirar .error do elemento
+            input.classList.remove("error")
         }
     }
+}
+document.querySelector("input")
+    .classList.remove("error")
+
+buttonElement.addEventListener("click", () => {
+   validationError()
 })
+
+const emailInput = document.querySelector("input[type=email")
