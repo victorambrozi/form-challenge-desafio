@@ -12,7 +12,7 @@ function validationError() {
         }
     }
 }
-document.querySelector("input")
+document.querySelector("form input")
     .classList.remove("error")
 
 buttonElement.addEventListener("click", () => {
