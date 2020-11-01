@@ -35,7 +35,7 @@ label::after {
 }
 
 input:checked + label{
-    background-color: #0077FF;
+    background-color: #ff7a7a;
 }
 
 input:checked + label::after {
@@ -51,4 +51,12 @@ label:active:after {
     font-family: Poppins;
     font-size: .8rem;
     color: #fff;
+}
+
+.dark-body {
+    background-color: #3e3c49;
+}
+
+.dark-form {
+    background-color: #333;
 }
