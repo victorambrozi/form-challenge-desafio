@@ -90,13 +90,14 @@ form button {
     color: var(--color-white);
     
     border-radius: 7px;
-    box-shadow: 0 8px #00000033;
+    box-shadow: 0 4px #269464;
+    
     cursor: pointer;
 }
 
 form button:hover{
     background-color: #269464;
-    box-shadow: 0 8px #00000033;
+    box-shadow: none;
 
     transition: .4s;
 }
