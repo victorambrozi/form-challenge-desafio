@@ -1,7 +1,7 @@
 <h1>Desafio Frontend Mentor</h1>
 <h2>Formulário de inscrição</h2>
 
-<img src="web/original.gif" alt="">
+<img src="https://media2.giphy.com/media/Y8ppuDwpGV1nJ1yCr4/giphy.gif" alt="Formulário Completo">
 
 <h2>Tecnologias utilizadas:</h2>
 <br>
