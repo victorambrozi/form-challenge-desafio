@@ -1,39 +1,37 @@
-<h1>Desafio Frontend Mentor</h1>
-<h2>Formulário de inscrição</h2>
+#  Desafio Frontend Mentor
+![enter image description here](https://media2.giphy.com/media/Y8ppuDwpGV1nJ1yCr4/giphy.gif)
 
-<img src="https://media2.giphy.com/media/Y8ppuDwpGV1nJ1yCr4/giphy.gif" alt="Formulário Completo">
+# Sobre:
 
-<h2>Tecnologias utilizadas:</h2>
-<br>
-<p>HTML</p>
-<p>CSS</p>
-<p>Javascript</p>
-<p>Node.js</p>
-<p>Nodemon</p>
-<p>Express</p>
-<br>
+A intenção desse desafio é testar meus conhecimentos em **HTML, CSS e Javascript**. A ideia é desenvolver uma formulário de inscrição com o intenção de convidar novos devs para o mundo da programação.
 
-<h2>Como usar</h2>
-<p>Para rodar esse formulário você deve ter instalado o <a href="https://git-scm.com/">Git</a> e <a href="https://nodejs.org/en/">Node.js</a></p>
-<br>
+## Tecnologias utilizadas:
 
-<h2>Instale as dependências</h2>
-# Clone este repositório<br>
-$ git clone git@github.com:victorambrozi/form-challenger.git
-<br>
-<br>
-# Entre no repositório<br>
-$ cd form-challenger
-<br>
-<br>
-# Instale as dependências<br>
-$ npm install express<br>
-$ npm install nodemon
-<br>
-<br>
-# Inicie o servidor <br>
-$ npm start
-<br>
-<br>
-# O formulário estará rodando na porta 5000 (http://localhost:5000/)
+ - HTML
+ - CSS
+ - Javascript
+ - Node.js
+ - Nodemon
+ - Express
+
+## Como utilizar:
+
+Para rodar esse desafio você deve ter instalado o [Git](https://git-scm.com/) e [Node.js](https://nodejs.org/en/)
+
+## Instale as dependências
+
+    # clone este repositório
+    $ git clone git@github.com:victorambrozi/form-challenger.git
+    
+    # Entre no repositório
+    $ cd form-challenge
+    
+    # Instale as depenências
+    $ npm install express
+    $ npm install nodemon
+    
+    # Inicie o servidor
+    $ npm start
+    
+    # O formulário estará rodando na porta 5000(http://localhost:5000/)
 
